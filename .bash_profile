@@ -8,3 +8,5 @@ test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shel
 #exec fish
 
 export PATH="$HOME/.cargo/bin:$PATH"
+
+source /Users/jcf/Library/Preferences/org.dystroy.broot/launcher/bash/br
