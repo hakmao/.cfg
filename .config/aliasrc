@@ -1,0 +1,11 @@
+# JCF's aliasrc
+
+alias vim=nvim
+
+# Global aliases
+alias -g G="| grep"
+alias -g L="| less"
+alias -g config="/usr/bin/git --git-dir=/Users/jcf/cfg/ --work-tree=/Users/jcf"
+#
+# Suffix aliases
+alias -s txt=code
