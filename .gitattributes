@@ -1,0 +1,122 @@
+# Johannes Flieger: .gitattributes
+
+# Remember to configure Git locally to handle line endings correctly:
+#   WINDOWS:        > git config --global core.autocrlf true
+#   MAC & LINUX:    $ git config --global core.autocrlf input
+
+# DEFAULT: Handle line endings automatically for files detected as text
+# and leave all files detected as binary untouched.
+
+* text=auto
+
+# The above will handle all files NOT found below
+
+# Text files that SHOULD be normalised (convert CRLF => LF)
+
+*.txt
+
+### Web Markup
+*.html text
+*.htm text
+*.xml text
+*.xhtml text
+*.css text
+*.scss text
+*.less text
+*.json text
+*.yaml text
+*.yml text
+*.dtd text
+*.svg text
+
+### Programming Languages
+*.js text
+*.coffee text
+*.rb text
+*.erb text
+*.py text
+*.pl text
+*.cs text
+*.java text
+*.jsp text
+*.jspf text
+*.jrxml text
+*.scala
+*.clj
+*.cloj
+*.go
+*.c text
+*.h text
+*.cpp text
+*.cs text
+*.xaml text
+*.csproj
+*.sln text
+*.tt text
+*.ps1 text
+*.cmd text
+*.msbuild text
+*.md text
+
+### System
+*.sh text
+*.bat text
+
+### Misc
+*.ps text
+*.df text
+*.prefs text
+*.conf text
+*.config text
+*.csv text
+*.prefs text
+*.bk text
+*.backup text
+*.orig text
+*.original text
+*.DS_Store text
+
+## Binary files that should NOT be normalised or diffed
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.bmp binary
+*.svg binary
+
+
+*.jar binary
+*.war binary
+
+*.swf binary
+*.mov binary
+*.sdf binary
+*.pdf binary
+
+*.exe binary
+*.dll binary
+*.lib binary
+*.7z binary
+
+*.pyc binary
+*.o binary
+*.so binary
+
+*.db
+
+*.doc binary
+*.docx binary
+*.dotx binary
+*.dotx binary
+*.xls binary
+*.xlsx binary
+*.xlsm binary
+*.xltm binary
+
+*.ttf binary
+*.otf binary
+*.eot binary
+*.woff binary
+*.woff2 binary
