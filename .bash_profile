@@ -10,3 +10,5 @@ test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shel
 export PATH="$HOME/.cargo/bin:$PATH"
 
 source /Users/jcf/Library/Preferences/org.dystroy.broot/launcher/bash/br
+
+source /home/jcf/.config/broot/launcher/bash/br
