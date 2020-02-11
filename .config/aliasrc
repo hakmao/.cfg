@@ -5,7 +5,7 @@ alias vim=nvim
 # Global aliases
 alias -g G="| grep"
 alias -g L="| less"
-alias -g config="/usr/bin/git --git-dir=$HOME/cfg/ --work-tree=$HOME"
+alias -g config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 #
 # Suffix aliases
 alias -s txt=code

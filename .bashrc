@@ -49,6 +49,7 @@ LIGHT_GRAY="\[\033[0;37m\]"
 
 #PS1="$LIGHT_GRAY\$(date +%H:%M) \w$YELLOW \$(parse_git_branch)$LIGHT_GREEN\$ $LIGHT_GRAY"
 PS1="$BROWN\!$LIGHT_GREEN[\d, \A]$LIGHT_BLUE{\h:\w}$RED\$(parse_git_branch)$LIGHT_GREEN\n\$ $LIGHT_GRAY"
-alias config='/usr/bin/git --git-dir=$HOME/cfg/ --work-tree=$HOME' 
+
+alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME" 
 
 source /Users/jcf/Library/Preferences/org.dystroy.broot/launcher/bash/br
