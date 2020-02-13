@@ -23,7 +23,7 @@ _comp_options+=(globdots)		# Include hidden files.
 bindkey -e
 
 # editor
-export EDITOR=nvim
+export EDITOR=jove
 
 # Use vim keys in tab complete menu:
 bindkey -M menuselect 'h' vi-backward-char
@@ -73,6 +73,5 @@ bindkey '^e' edit-command-line
 [ -f "$HOME/.config/shortcutrc" ] && source "$HOME/.config/shortcutrc"
 [ -f "$HOME/.config/aliasrc" ] && source "$HOME/.config/aliasrc"
 
-screenfetch
 # Load zsh-syntax-highlighting; should be last.
 #source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
