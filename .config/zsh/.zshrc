@@ -23,7 +23,7 @@ _comp_options+=(globdots)		# Include hidden files.
 bindkey -e
 
 # editor
-export EDITOR=jove
+export EDITOR=jed
 
 # Use vim keys in tab complete menu:
 #bindkey -M menuselect 'h' vi-backward-char
