@@ -23,6 +23,7 @@ _comp_options+=(globdots)		# Include hidden files.
 bindkey -e
 
 # editor
+
 export EDITOR=jed
 
 # Use vim keys in tab complete menu:
