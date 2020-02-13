@@ -17,8 +17,10 @@ compinit
 _comp_options+=(globdots)		# Include hidden files.
 
 # vi mode
-bindkey -v
-export KEYTIMEOUT=1
+#bindkey -v
+#export KEYTIMEOUT=1
+# emacs mode
+bindkey -e
 
 # editor
 export EDITOR=nvim
