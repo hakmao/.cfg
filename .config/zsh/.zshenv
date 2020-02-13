@@ -39,5 +39,4 @@ PATH="$PATH:$HOME/bin" # Add ~/bin to PATH for own scripts
 # Rust
 #PATH="$HOME/.cargo/bin:$PATH"
 
-
 export PATH
