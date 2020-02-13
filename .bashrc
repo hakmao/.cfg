@@ -52,3 +52,4 @@ PS1="$BROWN\!$LIGHT_GREEN[\d, \A]$LIGHT_BLUE{\h:\w}$RED\$(parse_git_branch)$LIGH
 
 alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME" 
 screenfetch
+
