@@ -5,6 +5,13 @@ alias vim=nvim
 # Global aliases
 alias -g G="| grep"
 alias -g L="| less"
+
+#
+alias -g emax="emacsclient -t"
+alias -g semac="sudo emacsclient -t"
+alias -g emacsc="emacsclient -c -a emacs"
+
+# Dotfiles repository command
 alias -g cfg="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 #
 # Suffix aliases

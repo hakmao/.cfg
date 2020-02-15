@@ -29,6 +29,12 @@ export TZ=Europe/London
 # use vi-style line editing interface
 #set -o vi
 
+# Editor
+export ALTERNATE_EDITOR="jed"
+export EDITOR="emacsclient -t"
+export VISUAL="emacsclient -c -a emacs"
+
+
 # Show current git branch in prompt.
 function parse_git_branch {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'

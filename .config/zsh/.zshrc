@@ -22,8 +22,11 @@ _comp_options+=(globdots)		# Include hidden files.
 # emacs mode
 bindkey -e
 
-# editor
-export EDITOR=jed
+# Editor
+export ALTERNATE_EDITOR="jed"
+export EDITOR="emacsclient -t"
+export VISUAL="emacsclient -c -a emacs"
+
 
 # Use vim keys in tab complete menu:
 #bindkey -M menuselect 'h' vi-backward-char
